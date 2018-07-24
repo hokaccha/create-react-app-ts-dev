@@ -2,6 +2,15 @@
   "name": "@hokaccha/create-react-app-ts-dev",
   "version": "1.0.0",
   "description": "Configuration and scripts for Create React App for development",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hokaccha/create-react-app-ts-dev.git"
+  },
+  "author": "Kazuhito Hokamura",
+  "homepage": "https://github.com/hokaccha/create-react-app-ts-dev",
+  "bugs": {
+    "url": "https://github.com/hokaccha/create-react-app-ts-dev/issues"
+  },
   "files": [
     "scripts",
     "template"
