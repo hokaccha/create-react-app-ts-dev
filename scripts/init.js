@@ -14,6 +14,7 @@ module.exports = function(appPath, appName) {
   fs.copySync(path.join(ownPath, 'template'), appPath);
 
   execSync('yarn', { stdio: 'inherit' });
+  execSync(`git init ${appPath}`, { stdio: 'inherit' });
 
   console.log();
   console.log(`Success! Created ${appName} at ${appPath}`);
